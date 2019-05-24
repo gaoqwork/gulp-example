@@ -39,3 +39,5 @@ other： 执行除上述之外的文件处理任务(即为代码复制)，非必
               "start":"true",
               "fileStyle":"*"
             }
+ 5、执行
+   执行npm  run build命令  或 gulp 任务名
