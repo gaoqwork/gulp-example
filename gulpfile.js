@@ -131,11 +131,11 @@ gulp.task('upload', function (done) {
         //部署到服务器的路径
         remotePath: '/home/tomcat/apache-tomcat-8.5.24/webapps/',
         //ip地址
-        host: '172.16.101.146',
+        host: '172.**.**.146',
         //帐号
-        user: 'tomcat',
+        user: '******',
         //密码
-        pass: 'tomcat'
+        pass: '******'
     };
     gulp.src(config.buildUrl+'*.war').pipe(sftp(devDist));
     done();
