@@ -1,0 +1,18 @@
+{
+  "buildUrl":"build/",
+  "packageName":"portal",
+  "rootUrl":"portal/",
+  "taskList" : {
+    "html":"true",
+    "css":"true",
+    "js":"true",
+    "img":"true",
+    "jsx":"true",
+    "war":"true",
+    "other":{
+      "start":"true",
+      "fileStyle":"{doc,docx,xlsx,xls,war,zip,txt}"
+    }
+  }
+}
+

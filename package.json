@@ -1,0 +1,30 @@
+{
+  "name": "portal",
+  "version": "1.0.0",
+  "description": "gulp environment portal",
+  "main": "index.js",
+  "scripts": {
+    "build": "gulp build"
+  },
+  "author": "gaoq",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.4.4",
+    "@babel/preset-env": "^7.4.4",
+    "del": "^4.1.1",
+    "gulp": "^4.0.1",
+    "gulp-babel": "^8.0.0",
+    "gulp-clean": "^0.4.0",
+    "gulp-clean-css": "^4.2.0",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-if": "^2.0.2",
+    "gulp-imagemin": "^5.0.3",
+    "gulp-react": "^4.0.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-sftp-up4": "^0.1.8",
+    "gulp-uglify": "^3.0.2",
+    "gulp-war": "^0.1.4",
+    "gulp-zip": "^4.2.0",
+    "vinyl-paths": "^2.1.0"
+  }
+}
